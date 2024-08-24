@@ -1,0 +1,99 @@
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]eleases/
+[Rr]eleasesPublic/
+x64/
+x86/
+arm/
+arm64/
+
+# NuGet packages
+*.nupkg
+*.snupkg
+*.nuget/
+*.nuget.config
+
+# User-specific files
+*.user
+*.userosscache
+*.suo
+*.suo
+*.swp
+*.swo
+*.suo
+*.userprefs
+*.dbmdl
+*.dbmdl
+
+# Rider
+.idea/
+*.sln.iml
+
+# OS generated files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Logs
+*.log
+
+# ASP.NET temporary files
+*.axd
+*.aspx
+*.asp
+*.cshtml
+*.vbhtml
+
+# Visual Studio Code
+.vscode/
+
+# Node.js dependencies (if using Node.js for some part of the project)
+node_modules/
+
+# Environment variables and secrets
+.env
+*.key
+*.pem
+*.cert
+
+# Other IDEs
+.vscode/
+.idea/
+*.code-workspace
+
+# Coverage reports
+coverage/
+
+# DotCover
+*.dotCover
+
+# Rider
+.idea/
+
+# Coverage reports
+coverage/
+
+# Tye
+.tye/
+
+# JetBrains Rider
+.idea/
+
+# Package distribution
+*.nupkg
+*.snupkg
+
+# Generated files
+*.generated.cs
+
+# Files created by Visual Studio for Mac
+*.csproj.user
+*.suo
+*.user
+
+# Other
+*.class
+*.jar
+*.war
+*.ear
