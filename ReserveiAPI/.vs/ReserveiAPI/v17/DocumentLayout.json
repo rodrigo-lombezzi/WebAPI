@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\Aluno\\Desktop\\Nova pasta\\ReserveiAPI\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{42EF417D-94E7-4E18-93D4-82250696F244}|ReserveiAPI.csproj|c:\\users\\aluno\\desktop\\nova pasta\\reserveiapi\\objects\\dtos\\mappings\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42EF417D-94E7-4E18-93D4-82250696F244}|ReserveiAPI.csproj|solutionrelative:objects\\dtos\\mappings\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42EF417D-94E7-4E18-93D4-82250696F244}|ReserveiAPI.csproj|c:\\users\\aluno\\desktop\\nova pasta\\reserveiapi\\objects\\dtos\\entities\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42EF417D-94E7-4E18-93D4-82250696F244}|ReserveiAPI.csproj|solutionrelative:objects\\dtos\\entities\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{42EF417D-94E7-4E18-93D4-82250696F244}|ReserveiAPI.csproj|c:\\users\\aluno\\desktop\\nova pasta\\reserveiapi\\reserveiapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{42EF417D-94E7-4E18-93D4-82250696F244}|ReserveiAPI.csproj|solutionrelative:reserveiapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
@@ -34,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 15,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Bookmark",
@@ -81,12 +89,38 @@
               "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             },
             {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "C:\\Users\\Aluno\\Desktop\\Nova pasta\\ReserveiAPI\\Objects\\DTOs\\Mappings\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "Objects\\DTOs\\Mappings\\MappingProfile.cs",
+              "ToolTip": "C:\\Users\\Aluno\\Desktop\\Nova pasta\\ReserveiAPI\\Objects\\DTOs\\Mappings\\MappingProfile.cs",
+              "RelativeToolTip": "Objects\\DTOs\\Mappings\\MappingProfile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-24T13:37:14.436Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Aluno\\Desktop\\Nova pasta\\ReserveiAPI\\Objects\\DTOs\\Entities\\UserDTO.cs",
+              "RelativeDocumentMoniker": "Objects\\DTOs\\Entities\\UserDTO.cs",
+              "ToolTip": "C:\\Users\\Aluno\\Desktop\\Nova pasta\\ReserveiAPI\\Objects\\DTOs\\Entities\\UserDTO.cs",
+              "RelativeToolTip": "Objects\\DTOs\\Entities\\UserDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-24T13:29:30.176Z",
+              "EditorCaption": ""
+            },
+            {
               "$type": "Bookmark",
               "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Aluno\\Desktop\\Nova pasta\\ReserveiAPI\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -98,7 +132,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Aluno\\Desktop\\Nova pasta\\ReserveiAPI\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -110,7 +144,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "AppDBContext.cs",
               "DocumentMoniker": "C:\\Users\\Aluno\\Desktop\\Nova pasta\\ReserveiAPI\\Contexts\\AppDBContext.cs",
               "RelativeDocumentMoniker": "Contexts\\AppDBContext.cs",
@@ -122,7 +156,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "ReserveiAPI.csproj",
               "DocumentMoniker": "C:\\Users\\Aluno\\Desktop\\Nova pasta\\ReserveiAPI\\ReserveiAPI.csproj",
               "RelativeDocumentMoniker": "ReserveiAPI.csproj",
@@ -135,7 +169,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "UserBuilder.cs",
               "DocumentMoniker": "C:\\Users\\Aluno\\Desktop\\Nova pasta\\ReserveiAPI\\Contexts\\Builders\\UserBuilder.cs",
               "RelativeDocumentMoniker": "Contexts\\Builders\\UserBuilder.cs",
@@ -147,7 +181,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "UserModel.cs",
               "DocumentMoniker": "C:\\Users\\Aluno\\Desktop\\Nova pasta\\ReserveiAPI\\Objects\\Models\\Entities\\UserModel.cs",
               "RelativeDocumentMoniker": "Objects\\Models\\Entities\\UserModel.cs",
