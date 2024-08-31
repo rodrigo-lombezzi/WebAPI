@@ -3,6 +3,7 @@ using ReserveiAPI.Objects.DTOs.Entities;
 using ReserveiAPI.Repositories.Interfaces;
 using ReserveiAPI.Services.Interfaces;
 using ReserveiAPI.Objects.Models.Entities;
+using ReserveiAPI.Objects.Contracts;
 
 namespace ReserveiAPI.Services.Entities
 {
@@ -54,6 +55,22 @@ namespace ReserveiAPI.Services.Entities
             await _userRepository.Delete(userModel);
 
             userDTO.PasswordUser = "";
+        }
+
+        public async Task<UserDTO> GetByEmail(string email)
+        {
+            var userModel = await _userRepository.GetByEmail(email);
+
+            if (userModel is not null) userModel.PasswordUser = "";
+            return _mapper.Map<UserDTO>(userModel);
+        }
+
+        public async Task<UserDTO> Login(Login login)
+        {
+            var userModel = await _userRepository.Login(login);
+
+            if (userModel is not null) userModel.PasswordUser = "";
+            return _mapper.Map<UserDTO>(userModel);
         }
     }
 }
