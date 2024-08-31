@@ -2750,19 +2750,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Aluno\\.nuget\\packages\\": {}
+    "C:\\Users\\Didjtyrjeu\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Aluno\\Desktop\\Nova pasta\\ReserveiAPI\\ReserveiAPI.csproj",
+      "projectUniqueName": "C:\\Users\\Didjtyrjeu\\Desktop\\新しいフォルダー\\ReserveiAPI\\ReserveiAPI.csproj",
       "projectName": "ReserveiAPI",
-      "projectPath": "C:\\Users\\Aluno\\Desktop\\Nova pasta\\ReserveiAPI\\ReserveiAPI.csproj",
-      "packagesPath": "C:\\Users\\Aluno\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Aluno\\Desktop\\Nova pasta\\ReserveiAPI\\obj\\",
+      "projectPath": "C:\\Users\\Didjtyrjeu\\Desktop\\新しいフォルダー\\ReserveiAPI\\ReserveiAPI.csproj",
+      "packagesPath": "C:\\Users\\Didjtyrjeu\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Didjtyrjeu\\Desktop\\新しいフォルダー\\ReserveiAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Aluno\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Didjtyrjeu\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -2770,7 +2770,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -2836,7 +2835,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

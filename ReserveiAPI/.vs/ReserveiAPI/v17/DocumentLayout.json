@@ -1,37 +1,53 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Aluno\\Desktop\\Nova pasta\\ReserveiAPI\\",
+  "WorkspaceRootPath": "C:\\Users\\Didjtyrjeu\\Desktop\\\u65B0\u3057\u3044\u30D5\u30A9\u30EB\u30C0\u30FC\\ReserveiAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{42EF417D-94E7-4E18-93D4-82250696F244}|ReserveiAPI.csproj|c:\\users\\aluno\\desktop\\nova pasta\\reserveiapi\\objects\\dtos\\mappings\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{42EF417D-94E7-4E18-93D4-82250696F244}|ReserveiAPI.csproj|c:\\users\\didjtyrjeu\\desktop\\\u65B0\u3057\u3044\u30D5\u30A9\u30EB\u30C0\u30FC\\reserveiapi\\services\\entities\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42EF417D-94E7-4E18-93D4-82250696F244}|ReserveiAPI.csproj|solutionrelative:services\\entities\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42EF417D-94E7-4E18-93D4-82250696F244}|ReserveiAPI.csproj|c:\\users\\didjtyrjeu\\desktop\\\u65B0\u3057\u3044\u30D5\u30A9\u30EB\u30C0\u30FC\\reserveiapi\\services\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42EF417D-94E7-4E18-93D4-82250696F244}|ReserveiAPI.csproj|solutionrelative:services\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42EF417D-94E7-4E18-93D4-82250696F244}|ReserveiAPI.csproj|c:\\users\\didjtyrjeu\\desktop\\\u65B0\u3057\u3044\u30D5\u30A9\u30EB\u30C0\u30FC\\reserveiapi\\repositories\\entities\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42EF417D-94E7-4E18-93D4-82250696F244}|ReserveiAPI.csproj|solutionrelative:repositories\\entities\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42EF417D-94E7-4E18-93D4-82250696F244}|ReserveiAPI.csproj|c:\\users\\didjtyrjeu\\desktop\\\u65B0\u3057\u3044\u30D5\u30A9\u30EB\u30C0\u30FC\\reserveiapi\\repositories\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42EF417D-94E7-4E18-93D4-82250696F244}|ReserveiAPI.csproj|solutionrelative:repositories\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42EF417D-94E7-4E18-93D4-82250696F244}|ReserveiAPI.csproj|c:\\users\\didjtyrjeu\\desktop\\\u65B0\u3057\u3044\u30D5\u30A9\u30EB\u30C0\u30FC\\reserveiapi\\objects\\dtos\\mappings\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{42EF417D-94E7-4E18-93D4-82250696F244}|ReserveiAPI.csproj|solutionrelative:objects\\dtos\\mappings\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{42EF417D-94E7-4E18-93D4-82250696F244}|ReserveiAPI.csproj|c:\\users\\aluno\\desktop\\nova pasta\\reserveiapi\\objects\\dtos\\entities\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{42EF417D-94E7-4E18-93D4-82250696F244}|ReserveiAPI.csproj|c:\\users\\didjtyrjeu\\desktop\\\u65B0\u3057\u3044\u30D5\u30A9\u30EB\u30C0\u30FC\\reserveiapi\\objects\\dtos\\entities\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{42EF417D-94E7-4E18-93D4-82250696F244}|ReserveiAPI.csproj|solutionrelative:objects\\dtos\\entities\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{42EF417D-94E7-4E18-93D4-82250696F244}|ReserveiAPI.csproj|c:\\users\\aluno\\desktop\\nova pasta\\reserveiapi\\reserveiapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{42EF417D-94E7-4E18-93D4-82250696F244}|ReserveiAPI.csproj|c:\\users\\didjtyrjeu\\desktop\\\u65B0\u3057\u3044\u30D5\u30A9\u30EB\u30C0\u30FC\\reserveiapi\\reserveiapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{42EF417D-94E7-4E18-93D4-82250696F244}|ReserveiAPI.csproj|solutionrelative:reserveiapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{42EF417D-94E7-4E18-93D4-82250696F244}|ReserveiAPI.csproj|c:\\users\\aluno\\desktop\\nova pasta\\reserveiapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{42EF417D-94E7-4E18-93D4-82250696F244}|ReserveiAPI.csproj|c:\\users\\didjtyrjeu\\desktop\\\u65B0\u3057\u3044\u30D5\u30A9\u30EB\u30C0\u30FC\\reserveiapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{42EF417D-94E7-4E18-93D4-82250696F244}|ReserveiAPI.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{42EF417D-94E7-4E18-93D4-82250696F244}|ReserveiAPI.csproj|c:\\users\\aluno\\desktop\\nova pasta\\reserveiapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{42EF417D-94E7-4E18-93D4-82250696F244}|ReserveiAPI.csproj|c:\\users\\didjtyrjeu\\desktop\\\u65B0\u3057\u3044\u30D5\u30A9\u30EB\u30C0\u30FC\\reserveiapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{42EF417D-94E7-4E18-93D4-82250696F244}|ReserveiAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{42EF417D-94E7-4E18-93D4-82250696F244}|ReserveiAPI.csproj|c:\\users\\aluno\\desktop\\nova pasta\\reserveiapi\\contexts\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{42EF417D-94E7-4E18-93D4-82250696F244}|ReserveiAPI.csproj|c:\\users\\didjtyrjeu\\desktop\\\u65B0\u3057\u3044\u30D5\u30A9\u30EB\u30C0\u30FC\\reserveiapi\\contexts\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{42EF417D-94E7-4E18-93D4-82250696F244}|ReserveiAPI.csproj|solutionrelative:contexts\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{42EF417D-94E7-4E18-93D4-82250696F244}|ReserveiAPI.csproj|c:\\users\\aluno\\desktop\\nova pasta\\reserveiapi\\contexts\\builders\\userbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{42EF417D-94E7-4E18-93D4-82250696F244}|ReserveiAPI.csproj|c:\\users\\didjtyrjeu\\desktop\\\u65B0\u3057\u3044\u30D5\u30A9\u30EB\u30C0\u30FC\\reserveiapi\\contexts\\builders\\userbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{42EF417D-94E7-4E18-93D4-82250696F244}|ReserveiAPI.csproj|solutionrelative:contexts\\builders\\userbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{42EF417D-94E7-4E18-93D4-82250696F244}|ReserveiAPI.csproj|c:\\users\\aluno\\desktop\\nova pasta\\reserveiapi\\objects\\models\\entities\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{42EF417D-94E7-4E18-93D4-82250696F244}|ReserveiAPI.csproj|c:\\users\\didjtyrjeu\\desktop\\\u65B0\u3057\u3044\u30D5\u30A9\u30EB\u30C0\u30FC\\reserveiapi\\objects\\models\\entities\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{42EF417D-94E7-4E18-93D4-82250696F244}|ReserveiAPI.csproj|solutionrelative:objects\\models\\entities\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -42,76 +58,58 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "MappingProfile.cs",
-              "DocumentMoniker": "C:\\Users\\Aluno\\Desktop\\Nova pasta\\ReserveiAPI\\Objects\\DTOs\\Mappings\\MappingProfile.cs",
-              "RelativeDocumentMoniker": "Objects\\DTOs\\Mappings\\MappingProfile.cs",
-              "ToolTip": "C:\\Users\\Aluno\\Desktop\\Nova pasta\\ReserveiAPI\\Objects\\DTOs\\Mappings\\MappingProfile.cs",
-              "RelativeToolTip": "Objects\\DTOs\\Mappings\\MappingProfile.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\Didjtyrjeu\\Desktop\\\u65B0\u3057\u3044\u30D5\u30A9\u30EB\u30C0\u30FC\\ReserveiAPI\\Services\\Entities\\UserService.cs",
+              "RelativeDocumentMoniker": "Services\\Entities\\UserService.cs",
+              "ToolTip": "C:\\Users\\Didjtyrjeu\\Desktop\\\u65B0\u3057\u3044\u30D5\u30A9\u30EB\u30C0\u30FC\\ReserveiAPI\\Services\\Entities\\UserService.cs",
+              "RelativeToolTip": "Services\\Entities\\UserService.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAA9wC8AAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-24T13:37:14.436Z",
+              "WhenOpened": "2024-08-31T04:40:42.951Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "UserDTO.cs",
-              "DocumentMoniker": "C:\\Users\\Aluno\\Desktop\\Nova pasta\\ReserveiAPI\\Objects\\DTOs\\Entities\\UserDTO.cs",
-              "RelativeDocumentMoniker": "Objects\\DTOs\\Entities\\UserDTO.cs",
-              "ToolTip": "C:\\Users\\Aluno\\Desktop\\Nova pasta\\ReserveiAPI\\Objects\\DTOs\\Entities\\UserDTO.cs",
-              "RelativeToolTip": "Objects\\DTOs\\Entities\\UserDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAAAAAA",
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Users\\Didjtyrjeu\\Desktop\\\u65B0\u3057\u3044\u30D5\u30A9\u30EB\u30C0\u30FC\\ReserveiAPI\\Services\\Interfaces\\IUserService.cs",
+              "RelativeDocumentMoniker": "Services\\Interfaces\\IUserService.cs",
+              "ToolTip": "C:\\Users\\Didjtyrjeu\\Desktop\\\u65B0\u3057\u3044\u30D5\u30A9\u30EB\u30C0\u30FC\\ReserveiAPI\\Services\\Interfaces\\IUserService.cs",
+              "RelativeToolTip": "Services\\Interfaces\\IUserService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-24T13:29:30.176Z",
+              "WhenOpened": "2024-08-31T04:38:20.336Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Didjtyrjeu\\Desktop\\\u65B0\u3057\u3044\u30D5\u30A9\u30EB\u30C0\u30FC\\ReserveiAPI\\Repositories\\Entities\\UserRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Entities\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\Didjtyrjeu\\Desktop\\\u65B0\u3057\u3044\u30D5\u30A9\u30EB\u30C0\u30FC\\ReserveiAPI\\Repositories\\Entities\\UserRepository.cs",
+              "RelativeToolTip": "Repositories\\Entities\\UserRepository.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAAACsAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-31T04:28:43.385Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IUserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Didjtyrjeu\\Desktop\\\u65B0\u3057\u3044\u30D5\u30A9\u30EB\u30C0\u30FC\\ReserveiAPI\\Repositories\\Interfaces\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Interfaces\\IUserRepository.cs",
+              "ToolTip": "C:\\Users\\Didjtyrjeu\\Desktop\\\u65B0\u3057\u3044\u30D5\u30A9\u30EB\u30C0\u30FC\\ReserveiAPI\\Repositories\\Interfaces\\IUserRepository.cs",
+              "RelativeToolTip": "Repositories\\Interfaces\\IUserRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-31T04:25:33Z",
               "EditorCaption": ""
             },
             {
@@ -120,11 +118,36 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "C:\\Users\\Didjtyrjeu\\Desktop\\\u65B0\u3057\u3044\u30D5\u30A9\u30EB\u30C0\u30FC\\ReserveiAPI\\Objects\\DTOs\\Mappings\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "Objects\\DTOs\\Mappings\\MappingProfile.cs",
+              "ToolTip": "C:\\Users\\Didjtyrjeu\\Desktop\\\u65B0\u3057\u3044\u30D5\u30A9\u30EB\u30C0\u30FC\\ReserveiAPI\\Objects\\DTOs\\Mappings\\MappingProfile.cs",
+              "RelativeToolTip": "Objects\\DTOs\\Mappings\\MappingProfile.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-24T13:37:14.436Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Didjtyrjeu\\Desktop\\\u65B0\u3057\u3044\u30D5\u30A9\u30EB\u30C0\u30FC\\ReserveiAPI\\Objects\\DTOs\\Entities\\UserDTO.cs",
+              "RelativeDocumentMoniker": "Objects\\DTOs\\Entities\\UserDTO.cs",
+              "ToolTip": "C:\\Users\\Didjtyrjeu\\Desktop\\\u65B0\u3057\u3044\u30D5\u30A9\u30EB\u30C0\u30FC\\ReserveiAPI\\Objects\\DTOs\\Entities\\UserDTO.cs",
+              "RelativeToolTip": "Objects\\DTOs\\Entities\\UserDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-24T13:29:30.176Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Aluno\\Desktop\\Nova pasta\\ReserveiAPI\\appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Didjtyrjeu\\Desktop\\\u65B0\u3057\u3044\u30D5\u30A9\u30EB\u30C0\u30FC\\ReserveiAPI\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\Aluno\\Desktop\\Nova pasta\\ReserveiAPI\\appsettings.json",
+              "ToolTip": "C:\\Users\\Didjtyrjeu\\Desktop\\\u65B0\u3057\u3044\u30D5\u30A9\u30EB\u30C0\u30FC\\ReserveiAPI\\appsettings.json",
               "RelativeToolTip": "appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
@@ -132,11 +155,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Aluno\\Desktop\\Nova pasta\\ReserveiAPI\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\Didjtyrjeu\\Desktop\\\u65B0\u3057\u3044\u30D5\u30A9\u30EB\u30C0\u30FC\\ReserveiAPI\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\Aluno\\Desktop\\Nova pasta\\ReserveiAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\Didjtyrjeu\\Desktop\\\u65B0\u3057\u3044\u30D5\u30A9\u30EB\u30C0\u30FC\\ReserveiAPI\\Program.cs",
               "RelativeToolTip": "Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -144,11 +167,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "AppDBContext.cs",
-              "DocumentMoniker": "C:\\Users\\Aluno\\Desktop\\Nova pasta\\ReserveiAPI\\Contexts\\AppDBContext.cs",
+              "DocumentMoniker": "C:\\Users\\Didjtyrjeu\\Desktop\\\u65B0\u3057\u3044\u30D5\u30A9\u30EB\u30C0\u30FC\\ReserveiAPI\\Contexts\\AppDBContext.cs",
               "RelativeDocumentMoniker": "Contexts\\AppDBContext.cs",
-              "ToolTip": "C:\\Users\\Aluno\\Desktop\\Nova pasta\\ReserveiAPI\\Contexts\\AppDBContext.cs",
+              "ToolTip": "C:\\Users\\Didjtyrjeu\\Desktop\\\u65B0\u3057\u3044\u30D5\u30A9\u30EB\u30C0\u30FC\\ReserveiAPI\\Contexts\\AppDBContext.cs",
               "RelativeToolTip": "Contexts\\AppDBContext.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -156,24 +179,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "ReserveiAPI.csproj",
-              "DocumentMoniker": "C:\\Users\\Aluno\\Desktop\\Nova pasta\\ReserveiAPI\\ReserveiAPI.csproj",
+              "DocumentMoniker": "C:\\Users\\Didjtyrjeu\\Desktop\\\u65B0\u3057\u3044\u30D5\u30A9\u30EB\u30C0\u30FC\\ReserveiAPI\\ReserveiAPI.csproj",
               "RelativeDocumentMoniker": "ReserveiAPI.csproj",
-              "ToolTip": "C:\\Users\\Aluno\\Desktop\\Nova pasta\\ReserveiAPI\\ReserveiAPI.csproj",
+              "ToolTip": "C:\\Users\\Didjtyrjeu\\Desktop\\\u65B0\u3057\u3044\u30D5\u30A9\u30EB\u30C0\u30FC\\ReserveiAPI\\ReserveiAPI.csproj",
               "RelativeToolTip": "ReserveiAPI.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-08-24T12:26:07.18Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-24T12:26:07.18Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 10,
               "Title": "UserBuilder.cs",
-              "DocumentMoniker": "C:\\Users\\Aluno\\Desktop\\Nova pasta\\ReserveiAPI\\Contexts\\Builders\\UserBuilder.cs",
+              "DocumentMoniker": "C:\\Users\\Didjtyrjeu\\Desktop\\\u65B0\u3057\u3044\u30D5\u30A9\u30EB\u30C0\u30FC\\ReserveiAPI\\Contexts\\Builders\\UserBuilder.cs",
               "RelativeDocumentMoniker": "Contexts\\Builders\\UserBuilder.cs",
-              "ToolTip": "C:\\Users\\Aluno\\Desktop\\Nova pasta\\ReserveiAPI\\Contexts\\Builders\\UserBuilder.cs",
+              "ToolTip": "C:\\Users\\Didjtyrjeu\\Desktop\\\u65B0\u3057\u3044\u30D5\u30A9\u30EB\u30C0\u30FC\\ReserveiAPI\\Contexts\\Builders\\UserBuilder.cs",
               "RelativeToolTip": "Contexts\\Builders\\UserBuilder.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAOAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -181,11 +203,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 11,
               "Title": "UserModel.cs",
-              "DocumentMoniker": "C:\\Users\\Aluno\\Desktop\\Nova pasta\\ReserveiAPI\\Objects\\Models\\Entities\\UserModel.cs",
+              "DocumentMoniker": "C:\\Users\\Didjtyrjeu\\Desktop\\\u65B0\u3057\u3044\u30D5\u30A9\u30EB\u30C0\u30FC\\ReserveiAPI\\Objects\\Models\\Entities\\UserModel.cs",
               "RelativeDocumentMoniker": "Objects\\Models\\Entities\\UserModel.cs",
-              "ToolTip": "C:\\Users\\Aluno\\Desktop\\Nova pasta\\ReserveiAPI\\Objects\\Models\\Entities\\UserModel.cs",
+              "ToolTip": "C:\\Users\\Didjtyrjeu\\Desktop\\\u65B0\u3057\u3044\u30D5\u30A9\u30EB\u30C0\u30FC\\ReserveiAPI\\Objects\\Models\\Entities\\UserModel.cs",
               "RelativeToolTip": "Objects\\Models\\Entities\\UserModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
