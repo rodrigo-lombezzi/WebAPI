@@ -2,10 +2,11 @@
 using ReserveiAPI.Contexts;
 using ReserveiAPI.Objects.Contracts;
 using ReserveiAPI.Objects.Models.Entities;
+using ReserveiAPI.Repositories.Interfaces;
 
 namespace ReserveiAPI.Repositories.Entities
 {
-    public class UserRepository
+    public class UserRepository : IUserRepository
     {
         private readonly AppDBContext _dbContext;
         

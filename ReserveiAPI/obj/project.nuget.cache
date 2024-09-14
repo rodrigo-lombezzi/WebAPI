@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hLZxCPNjvX42YU6s2Ga6Gx3Hd4MFjVlGypczfHr8fTI9LTu75x8PUlyA0ruWu/f8dPUuJmnkYu1bF9JOTPCnIA==",
+  "dgSpecHash": "MY+v3EE4p8FqO5J89HvZ0EBIK4dJ3jjgslx7R3KTdPtvPq0AmOy6GY0pTWzRLcpyugKKDqkIvD77eqVkT2QOqg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Didjtyrjeu\\Desktop\\新しいフォルダー\\ReserveiAPI\\ReserveiAPI.csproj",
+  "projectFilePath": "C:\\Users\\Didjtyrjeu\\Desktop\\git\\ReserveiAPI\\ReserveiAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Didjtyrjeu\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\Didjtyrjeu\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

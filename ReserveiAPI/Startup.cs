@@ -17,11 +17,11 @@ namespace ReserveiAPI
 
         public void ConfigureServices(IServiceCollection services)
         {
-            //Configuração do banco de dados
+            // Configure the database
             services.AddDbContext<AppDBContext>(options =>
                 options.UseNpgsql(Configuration.GetConnectionString("DefaultConnection")));
 
-            //Configuração do Swagger
+            // Configure Swagger
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new Microsoft.OpenApi.Models.OpenApiInfo { Title = "CourseGuide", Version = "v1" });
@@ -32,9 +32,10 @@ namespace ReserveiAPI
 
             services.AddEndpointsApiExplorer();
 
-            services.AddCors(o => o.AddPolicy("MyPolice", builder =>
+            // Configure CORS
+            services.AddCors(o => o.AddPolicy("MyPolicy", builder =>
             {
-                builder.WithOrigins("http://localhost:3000", "htpp//localhost:5173")
+                builder.WithOrigins("http://localhost:3000", "http://localhost:5173") // Fixed typo in URL
                     .AllowAnyMethod()
                     .AllowAnyHeader()
                     .AllowCredentials();
@@ -42,9 +43,10 @@ namespace ReserveiAPI
 
             services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
-            // Injetação de dependências
+            // Dependency injection
             services.AddUserDependencies();
         }
+
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
             if (env.IsDevelopment())
@@ -81,6 +83,5 @@ namespace ReserveiAPI
                 endpoints.MapControllers();
             });
         }
-
     }
 }

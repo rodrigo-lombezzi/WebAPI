@@ -2,17 +2,15 @@
 using ReserveiAPI.Objects.Contracts;
 using ReserveiAPI.Objects.DTOs.Entities;
 using ReserveiAPI.Objects.Ultilities;
-using ReserveiAPI.Services.Entities;
 using ReserveiAPI.Services.Interfaces;
-using System.Diagnostics;
 using System.Dynamic;
-using static System.Runtime.InteropServices.JavaScript.JSType;
+using System.Threading.Tasks;
+using static Jose.Compact;
 
 namespace ReserveiAPI.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-
     public class UserController : Controller
     {
         private readonly IUserService _userService;
@@ -23,8 +21,6 @@ namespace ReserveiAPI.Controllers
             _userService = userService;
             _response = new Response();
         }
-
-
 
         [HttpGet("GetAll")]
         public async Task<ActionResult<IEnumerable<UserDTO>>> GetAll()
@@ -37,13 +33,13 @@ namespace ReserveiAPI.Controllers
                     "Lista do(s) Usuário(s) obtida com sucesso." :
                     "Nenhum Usuário encontrado.";
                 _response.Data = usersDTO;
-                return Ok(usersDTO);
+                return Ok(_response);
             }
             catch (Exception ex)
             {
                 _response.SerError();
-                _response.Message = "Não foi possivel adquirir a lisa do(s) usuário(s):";
-                _response.Data = new { ErrorMessage = ex.Message, StackTrace = ex.StackTrace ?? "No stack trace aviailable!" };
+                _response.Message = "Não foi possível adquirir a lista do(s) Usuário(s)";
+                _response.Data = new { ErrorMessage = ex.Message, StackTrace = ex.StackTrace ?? "No stack trace available!" };
                 return StatusCode(StatusCodes.Status500InternalServerError, _response);
             }
         }
@@ -54,22 +50,23 @@ namespace ReserveiAPI.Controllers
             try
             {
                 var userDTO = await _userService.GetById(id);
-                if (userDTO is null)
+                if (userDTO == null)
                 {
                     _response.SetNotFound();
                     _response.Message = "Usuário não encontrado!";
                     _response.Data = userDTO;
                     return NotFound(_response);
-                };
+                }
+
                 _response.SetSuccess();
-                _response.Message = "Usuário" + userDTO.NameUser + "obtido com sucesso.";
+                _response.Message = "Usuário " + userDTO.NameUser + " obtido com sucesso.";
                 _response.Data = userDTO;
-                return Ok(_response);
+                return Ok(_response); // Corrigido para Ok
             }
             catch (Exception ex)
             {
                 _response.SerError();
-                _response.Message = "Não foi possivel adquirir o usuário informado!";
+                _response.Message = "Não foi possível adquirir o Usuário informado!";
                 _response.Data = new { ErrorMessage = ex.Message, StackTrace = ex.StackTrace ?? "No stack trace available!" };
                 return StatusCode(StatusCodes.Status500InternalServerError, _response);
             }
@@ -90,67 +87,6 @@ namespace ReserveiAPI.Controllers
             try
             {
                 dynamic errors = new ExpandoObject();
-                var hasErros = false;
-
-                CheckDatas(userDTO, ref errors, ref hasErros);
-                if (hasErros)
-                {
-                    _response.SetConflict();
-                    _response.Message = "Dado(s) com conflito!";
-                    _response.Data = errors;
-                    return BadRequest(_response);
-                }
-
-                var usersDTO = await _userService.GetAll();
-                CheckDuplicates(usersDTO, userDTO, ref errors, ref hasErros);
-
-                if (hasErros)
-                {
-                    _response.SetConflict();
-                    _response.Message = "Dado(s) com conflito!";
-                    _response.Data = errors;
-                    return BadRequest(_response);
-                }
-
-                userDTO.PasswordUser = userDTO.PasswordUser.HashPassword();
-                await _userService.Create(userDTO);
-
-                _response.SetSuccess();
-                _response.Message = "Usuário " + userDTO.NameUser + " cadastrado com sucesso.";
-                _response.Data = userDTO;
-                return Ok(_response);
-            }
-            catch (Exception ex)
-            {
-                _response.SerError();
-                _response.Message = "Nãp foi possível cadastrar o usuário";
-                _response.Data = new { ErrorMessage = ex.Message, StackTrace = ex.StackTrace ?? "No stack trace available!" };
-                return StatusCode(StatusCodes.Status500InternalServerError, _response);
-            }
-        }
-
-        [HttpPut("Update")]
-        public async Task<ActionResult> Update([FromBody] UserDTO userDTO)
-        {
-            if (userDTO is null)
-            {
-                _response.SetConflict();
-                _response.Message = "Dado(s) inválidos!";
-                _response.Data = userDTO;
-                return BadRequest(_response);
-            }
-            try
-            {
-                var existingUserDTO = await _userService.GetById(userDTO.Id);
-                if (existingUserDTO is null)
-                {
-                    _response.SetNotFound();
-                    _response.Message = "Dado(s) com conflito!";
-                    _response.Data = new { errorId = "O usuário informado não existe!" };
-                    return NotFound(_response);
-                }
-
-                dynamic errors = new ExpandoObject();
                 var hasErrors = false;
 
                 CheckDatas(userDTO, ref errors, ref hasErrors);
@@ -164,7 +100,6 @@ namespace ReserveiAPI.Controllers
                 }
 
                 var usersDTO = await _userService.GetAll();
-
                 CheckDuplicates(usersDTO, userDTO, ref errors, ref hasErrors);
 
                 if (hasErrors)
@@ -175,93 +110,30 @@ namespace ReserveiAPI.Controllers
                     return BadRequest(_response);
                 }
 
-                userDTO.PasswordUser = existingUserDTO.PasswordUser;
-                await _userService.Update(userDTO);
+                // Criptografa a senha
+                var hashedPassword = OperatorUltilitie.HashPassword(userDTO.PasswordUser);
 
-                _response.SetSuccess();
-                _response.Message = "Usuário" + userDTO.NameUser + "alterado com sucesso.";
-                _response.Data = userDTO;
-                return Ok(_response);
-
-            }
-            catch (Exception ex) 
-            {
-                _response.SerError();
-                _response.Message = "Não foi possivel alterar o usuário!";
-                _response.Data = new { ErrorMessage = ex.Message, StackTrace = ex.StackTrace ?? "No stack trace available!" };
-                return StatusCode(StatusCodes.Status500InternalServerError, _response);
-            }
-        }
-
-        [HttpDelete("Delete/{id:int}")]
-        public async Task<ActionResult<UserDTO>> Delete(int id)
-        {
-            try
-            {
-                var userdDTO = await _userService.GetById(id);
-                if (userdDTO is null)
+                // Remove o primeiro caractere da senha criptografada
+                if (hashedPassword.Length > 0)
                 {
-                    _response.SetNotFound();
-                    _response.Message = "Dado(s) com conflito!";
-                    _response.Data = new { errorId = "O usuário não existe!" };
-                    return NotFound(_response);
+                    hashedPassword = hashedPassword.Substring(0);
                 }
 
-                await _userService.Delete(userdDTO);
+                userDTO.PasswordUser = hashedPassword;
+
+                await _userService.Create(userDTO);
 
                 _response.SetSuccess();
-                _response.Message = "Usuário" + userdDTO.NameUser + "excluido com sucesso.";
-                _response.Data = userdDTO;
+                _response.Message = "Usuário " + userDTO.NameUser + " cadastrado com sucesso.";
+                _response.Data = userDTO;
                 return Ok(_response);
-
             }
             catch (Exception ex)
             {
                 _response.SerError();
-                _response.Message = "Não foi possivel excluir o usuário!";
+                _response.Message = "Não foi possível cadastrar o Usuário!";
                 _response.Data = new { ErrorMessage = ex.Message, StackTrace = ex.StackTrace ?? "No stack trace available!" };
                 return StatusCode(StatusCodes.Status500InternalServerError, _response);
-            }
-        }
-
-        private static void CheckDatas(UserDTO userDTO, ref dynamic errors, ref bool hasErrors)
-        {
-            if(!ValidatorUltilitie.CheckValidPhone(userDTO.PhoneUser))
-            {
-                errors.errorPhoneUser = "Número inválido";
-                hasErrors = true;
-            }
-
-            int status = ValidatorUltilitie.CheckValidEmail(userDTO.EmailUser);
-            if (status == -1)
-            {
-                errors.errorEmailUser = "E-mail inválido";
-                hasErrors = true;   
-            }
-
-            if(status == -2)
-            {
-                errors.errorEmailUser = "Domínio inválido";
-                hasErrors = true;  
-            }
-        }
-
-        private static void CheckDuplicates(IEnumerable<UserDTO> usersDTO, UserDTO userDTO, ref dynamic errors, ref bool hasErrors)
-        {
-            foreach(var user in usersDTO)
-            {
-                if(userDTO.Id == user.Id)
-                {
-                    continue;
-                }
-
-                if(ValidatorUltilitie.CompareString(userDTO.EmailUser, user.EmailUser))
-                {
-                    errors.errorEmailUser = "O e-mail" + user.EmailUser + " já está sendo ultilizado!";
-                    hasErrors = true;   
-
-                    break;
-                }
             }
         }
 
@@ -309,7 +181,7 @@ namespace ReserveiAPI.Controllers
         [HttpPost("Validate")]
         public async Task<ActionResult> Validate([FromBody] Token token)
         {
-            if (token is not null)
+            if (token == null)
             {
                 _response.SetInvalid();
                 _response.Message = "Dado inválido";
@@ -349,6 +221,137 @@ namespace ReserveiAPI.Controllers
                 return StatusCode(StatusCodes.Status500InternalServerError, _response);
             }
         }
-    
-    }   
+
+        [HttpPut("Update")]
+        public async Task<ActionResult> Update([FromBody] UserDTO userDTO)
+        {
+            if (userDTO == null)
+            {
+                _response.SetInvalid();
+                _response.Message = "Dado(s) inválido(s)";
+                _response.Data = userDTO;
+                return BadRequest(_response);
+            }
+
+            try
+            {
+                var existingUserDTO = await _userService.GetById(userDTO.Id);
+                if (existingUserDTO == null)
+                {
+                    _response.SetNotFound();
+                    _response.Message = "Dado(s) com conflito!";
+                    _response.Data = new { errorId = "O Usuário informado não existe!" };
+                    return NotFound(_response);
+                }
+
+                dynamic errors = new ExpandoObject();
+                var hasErrors = false;
+
+                CheckDatas(userDTO, ref errors, ref hasErrors);
+
+                if (hasErrors)
+                {
+                    _response.SetConflict();
+                    _response.Message = "Dado(s) com conflitos";
+                    _response.Data = errors;
+                    return BadRequest(_response);
+                }
+
+                var usersDTO = await _userService.GetAll();
+                CheckDuplicates(usersDTO, userDTO, ref errors, ref hasErrors);
+
+                if (hasErrors)
+                {
+                    _response.SetConflict();
+                    _response.Message = "Dado(s) com conflitos";
+                    _response.Data = errors;
+                    return BadRequest(_response);
+                }
+
+                userDTO.PasswordUser = existingUserDTO.PasswordUser;
+                await _userService.Update(userDTO);
+
+                _response.SetSuccess();
+                _response.Message = "Usuário " + userDTO.NameUser + " alterado com sucesso. ";
+                _response.Data = userDTO;
+                return Ok(_response);
+            }
+            catch (Exception ex)
+            {
+                _response.SerError();
+                _response.Message = "Não foi possível alterar o Usuário!";
+                _response.Data = new { ErrorMessage = ex.Message, StackTrace = ex.StackTrace ?? "No stack trace available!" };
+                return StatusCode(StatusCodes.Status500InternalServerError, _response);
+            }
+        }
+
+        [HttpDelete("Delete/{id:int}")]
+        public async Task<ActionResult<UserDTO>> Delete(int id)
+        {
+            try
+            {
+                var userDTO = await _userService.GetById(id);
+                if (userDTO == null)
+                {
+                    _response.SetNotFound();
+                    _response.Message = "Dado(s) com conflito!";
+                    _response.Data = new { errorId = "O Usuário não encontrado!" };
+                    return NotFound(_response);
+                }
+
+                await _userService.Delete(userDTO);
+                _response.SetSuccess();
+                _response.Message = "Usuário " + userDTO.NameUser + " excluído com sucesso. ";
+                _response.Data = userDTO;
+                return Ok(_response);
+
+            }
+            catch (Exception ex)
+            {
+                _response.SerError();
+                _response.Message = "Não foi possível excluir o Usuário!";
+                _response.Data = new { ErrorMessage = ex.Message, StackTrace = ex.StackTrace ?? "No stack trace available!" };
+                return StatusCode(StatusCodes.Status500InternalServerError, _response);
+            }
+        }
+
+        private static void CheckDatas(UserDTO userDTO, ref dynamic errors, ref bool hasErrors)
+        {
+            if (!ValidatorUltilitie.CheckValidPhone(userDTO.PhoneUser))
+            {
+                errors.errorPhoneUser = "Número Inválido!";
+                hasErrors = true;
+            }
+
+            int status = ValidatorUltilitie.CheckValidEmail(userDTO.EmailUser);
+            if (status == -1)
+            {
+                errors.errorEmailUser = "E-mail inválido!";
+                hasErrors = true;
+            }
+            else if (status == -2)
+            {
+                errors.errorEmailUser = "Domínio inválido!";
+                hasErrors = true;
+            }
+        }
+
+        private static void CheckDuplicates(IEnumerable<UserDTO> usersDTO, UserDTO userDTO, ref dynamic errors, ref bool hasErrors)
+        {
+            foreach (var user in usersDTO)
+            {
+                if (userDTO.Id == user.Id)
+                {
+                    continue;
+                }
+
+                if (ValidatorUltilitie.CompareString(userDTO.EmailUser, user.EmailUser))
+                {
+                    errors.errorEmailUser = "O e-mail " + userDTO.EmailUser + " já está sendo utilizado!";
+                    hasErrors = true;
+                    break;
+                }
+            }
+        }
+    }
 }

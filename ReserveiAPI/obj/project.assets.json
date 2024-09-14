@@ -5029,11 +5029,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Didjtyrjeu\\Desktop\\新しいフォルダー\\ReserveiAPI\\ReserveiAPI.csproj",
+      "projectUniqueName": "C:\\Users\\Didjtyrjeu\\Desktop\\git\\ReserveiAPI\\ReserveiAPI.csproj",
       "projectName": "ReserveiAPI",
-      "projectPath": "C:\\Users\\Didjtyrjeu\\Desktop\\新しいフォルダー\\ReserveiAPI\\ReserveiAPI.csproj",
+      "projectPath": "C:\\Users\\Didjtyrjeu\\Desktop\\git\\ReserveiAPI\\ReserveiAPI.csproj",
       "packagesPath": "C:\\Users\\Didjtyrjeu\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Didjtyrjeu\\Desktop\\新しいフォルダー\\ReserveiAPI\\obj\\",
+      "outputPath": "C:\\Users\\Didjtyrjeu\\Desktop\\git\\ReserveiAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Didjtyrjeu\\AppData\\Roaming\\NuGet\\NuGet.Config",
