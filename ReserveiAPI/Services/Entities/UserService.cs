@@ -1,76 +1,69 @@
 ﻿using AutoMapper;
+using ReserveiAPI.Objects.Contracts;
 using ReserveiAPI.Objects.DTOs.Entities;
+using ReserveiAPI.Objects.Models.Entities;
 using ReserveiAPI.Repositories.Interfaces;
 using ReserveiAPI.Services.Interfaces;
-using ReserveiAPI.Objects.Models.Entities;
-using ReserveiAPI.Objects.Contracts;
 
-namespace ReserveiAPI.Services.Entities
+namespace backend.Services.Entities;
+public class UserService : IUserService
 {
-    public class UserService : IUserService
+
+    private readonly IUserRepository _userRepository;
+    private readonly IMapper _mapper;
+
+    public UserService(IUserRepository userRepository, IMapper mapper)
     {
-        private readonly IUserRepository _userRepository;
-        private readonly IMapper _mapper;
+        _userRepository = userRepository;
+        _mapper = mapper;
+    }
 
-        public UserService(IUserRepository userRepository, IMapper mapper)
-        {
-            _userRepository = userRepository;
-            _mapper = mapper;
-        }
-        public async Task<IEnumerable<UserDTO>> GetAll()
-        {
-            var userModel = await _userRepository.GetAll();
+    public async Task<IEnumerable<UserDTO>> GetAll()
+    {
+        var usersModel = await _userRepository.GetAll();
 
-            userModel.ToList().ForEach(u => u.PasswordUser = "");
-            return _mapper.Map<IEnumerable<UserDTO>>(userModel);
-        }
+        usersModel.ToList().ForEach(user => user.PasswordUser = "");
+        return _mapper.Map<IEnumerable<UserDTO>>(usersModel);
+    }
 
-        public async Task<UserDTO> GetById(int id)
-        {
-            var userModel = await _userRepository.GetById(id);
+    public async Task<UserDTO> GetById(int id)
+    {
+        var userModel = await _userRepository.GetById(id);
 
-            if (userModel is not null) userModel.PasswordUser = "";
-            return _mapper.Map<UserDTO>(userModel);
-        }
+        if (userModel is not null) userModel.PasswordUser = "";
+        return _mapper.Map<UserDTO>(userModel);
+    }
 
-        public async Task Create(UserDTO userDTO)
-        {
-            var userModel = _mapper.Map<UserModel>(userDTO);
-            await _userRepository.Create(userModel);
+    public async Task<UserDTO> Login(Login login)
+    {
+        var userModel = await _userRepository.Login(login);
 
-            userDTO.Id = userModel.Id;
-            userDTO.PasswordUser = "";
-        }
+        if (userModel is not null) userModel.PasswordUser = "";
+        return _mapper.Map<UserDTO>(userModel);
+    }
 
-        public async Task Update(UserDTO userDTO)
-        {
-            var userModel = _mapper.Map<UserModel>(userDTO);
-            await _userRepository.Update(userModel);
-            userDTO.PasswordUser = "";
-        }
+    public async Task Create(UserDTO userDTO)
+    {
+        var userModel = _mapper.Map<UserModel>(userDTO);
+        await _userRepository.Create(userModel);
 
-        public async Task Delete(UserDTO userDTO)
-        {
-            var userModel = _mapper.Map<UserModel>(userDTO);
-            await _userRepository.Delete(userModel);
+        userDTO.Id = userModel.Id;
+        userDTO.PasswordUser = "";
+    }
 
-            userDTO.PasswordUser = "";
-        }
+    public async Task Update(UserDTO userDTO)
+    {
+        var userModel = _mapper.Map<UserModel>(userDTO);
+        await _userRepository.Update(userModel);
 
-        public async Task<UserDTO> GetByEmail(string email)
-        {
-            var userModel = await _userRepository.GetByEmail(email);
+        userDTO.PasswordUser = "";
+    }
 
-            if (userModel is not null) userModel.PasswordUser = "";
-            return _mapper.Map<UserDTO>(userModel);
-        }
+    public async Task Delete(UserDTO userDTO)
+    {
+        var userModel = _mapper.Map<UserModel>(userDTO);
+        await _userRepository.Delete(userModel);
 
-        public async Task<UserDTO> Login(Login login)
-        {
-            var userModel = await _userRepository.Login(login);
-
-            if (userModel is not null) userModel.PasswordUser = "";
-            return _mapper.Map<UserDTO>(userModel);
-        }
+        userDTO.PasswordUser = "";
     }
 }

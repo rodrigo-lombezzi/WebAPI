@@ -3,64 +3,68 @@
   "WorkspaceRootPath": "C:\\Users\\Didjtyrjeu\\Desktop\\git\\ReserveiAPI\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{42EF417D-94E7-4E18-93D4-82250696F244}|ReserveiAPI.csproj|c:\\users\\didjtyrjeu\\desktop\\git\\reserveiapi\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{42EF417D-94E7-4E18-93D4-82250696F244}|ReserveiAPI.csproj|solutionrelative:startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{42EF417D-94E7-4E18-93D4-82250696F244}|ReserveiAPI.csproj|c:\\users\\didjtyrjeu\\desktop\\git\\reserveiapi\\repositories\\entities\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{42EF417D-94E7-4E18-93D4-82250696F244}|ReserveiAPI.csproj|solutionrelative:repositories\\entities\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{42EF417D-94E7-4E18-93D4-82250696F244}|ReserveiAPI.csproj|c:\\users\\didjtyrjeu\\desktop\\git\\reserveiapi\\contexts\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{42EF417D-94E7-4E18-93D4-82250696F244}|ReserveiAPI.csproj|solutionrelative:contexts\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{42EF417D-94E7-4E18-93D4-82250696F244}|ReserveiAPI.csproj|c:\\users\\didjtyrjeu\\desktop\\git\\reserveiapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{42EF417D-94E7-4E18-93D4-82250696F244}|ReserveiAPI.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{42EF417D-94E7-4E18-93D4-82250696F244}|ReserveiAPI.csproj|c:\\users\\didjtyrjeu\\desktop\\git\\reserveiapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{42EF417D-94E7-4E18-93D4-82250696F244}|ReserveiAPI.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{42EF417D-94E7-4E18-93D4-82250696F244}|ReserveiAPI.csproj|c:\\users\\didjtyrjeu\\desktop\\git\\reserveiapi\\repositories\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{42EF417D-94E7-4E18-93D4-82250696F244}|ReserveiAPI.csproj|solutionrelative:repositories\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{42EF417D-94E7-4E18-93D4-82250696F244}|ReserveiAPI.csproj|c:\\users\\didjtyrjeu\\desktop\\git\\reserveiapi\\migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42EF417D-94E7-4E18-93D4-82250696F244}|ReserveiAPI.csproj|solutionrelative:migrations\\appdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42EF417D-94E7-4E18-93D4-82250696F244}|ReserveiAPI.csproj|c:\\users\\didjtyrjeu\\desktop\\git\\reserveiapi\\migrations\\20240914123227_database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42EF417D-94E7-4E18-93D4-82250696F244}|ReserveiAPI.csproj|solutionrelative:migrations\\20240914123227_database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42EF417D-94E7-4E18-93D4-82250696F244}|ReserveiAPI.csproj|c:\\users\\didjtyrjeu\\desktop\\git\\reserveiapi\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42EF417D-94E7-4E18-93D4-82250696F244}|ReserveiAPI.csproj|solutionrelative:startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{42EF417D-94E7-4E18-93D4-82250696F244}|ReserveiAPI.csproj|c:\\users\\didjtyrjeu\\desktop\\git\\reserveiapi\\services\\server\\dependenciesinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{42EF417D-94E7-4E18-93D4-82250696F244}|ReserveiAPI.csproj|solutionrelative:services\\server\\dependenciesinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{42EF417D-94E7-4E18-93D4-82250696F244}|ReserveiAPI.csproj|c:\\users\\didjtyrjeu\\desktop\\git\\reserveiapi\\objects\\dtos\\entities\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{42EF417D-94E7-4E18-93D4-82250696F244}|ReserveiAPI.csproj|solutionrelative:objects\\dtos\\entities\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{42EF417D-94E7-4E18-93D4-82250696F244}|ReserveiAPI.csproj|c:\\users\\didjtyrjeu\\desktop\\git\\reserveiapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42EF417D-94E7-4E18-93D4-82250696F244}|ReserveiAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{42EF417D-94E7-4E18-93D4-82250696F244}|ReserveiAPI.csproj|c:\\users\\didjtyrjeu\\desktop\\git\\reserveiapi\\objects\\dtos\\mappings\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{42EF417D-94E7-4E18-93D4-82250696F244}|ReserveiAPI.csproj|solutionrelative:objects\\dtos\\mappings\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{42EF417D-94E7-4E18-93D4-82250696F244}|ReserveiAPI.csproj|c:\\users\\didjtyrjeu\\desktop\\git\\reserveiapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{42EF417D-94E7-4E18-93D4-82250696F244}|ReserveiAPI.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{42EF417D-94E7-4E18-93D4-82250696F244}|ReserveiAPI.csproj|c:\\users\\didjtyrjeu\\desktop\\git\\reserveiapi\\services\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{42EF417D-94E7-4E18-93D4-82250696F244}|ReserveiAPI.csproj|solutionrelative:services\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{42EF417D-94E7-4E18-93D4-82250696F244}|ReserveiAPI.csproj|c:\\users\\didjtyrjeu\\desktop\\git\\reserveiapi\\objects\\contracts\\token.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{42EF417D-94E7-4E18-93D4-82250696F244}|ReserveiAPI.csproj|solutionrelative:objects\\contracts\\token.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{42EF417D-94E7-4E18-93D4-82250696F244}|ReserveiAPI.csproj|c:\\users\\didjtyrjeu\\desktop\\git\\reserveiapi\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42EF417D-94E7-4E18-93D4-82250696F244}|ReserveiAPI.csproj|solutionrelative:weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{42EF417D-94E7-4E18-93D4-82250696F244}|ReserveiAPI.csproj|c:\\users\\didjtyrjeu\\desktop\\git\\reserveiapi\\objects\\contracts\\tokensignatures.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{42EF417D-94E7-4E18-93D4-82250696F244}|ReserveiAPI.csproj|solutionrelative:objects\\contracts\\tokensignatures.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{42EF417D-94E7-4E18-93D4-82250696F244}|ReserveiAPI.csproj|c:\\users\\didjtyrjeu\\desktop\\git\\reserveiapi\\objects\\contracts\\token.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42EF417D-94E7-4E18-93D4-82250696F244}|ReserveiAPI.csproj|solutionrelative:objects\\contracts\\token.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42EF417D-94E7-4E18-93D4-82250696F244}|ReserveiAPI.csproj|c:\\users\\didjtyrjeu\\desktop\\git\\reserveiapi\\repositories\\entities\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42EF417D-94E7-4E18-93D4-82250696F244}|ReserveiAPI.csproj|solutionrelative:repositories\\entities\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{42EF417D-94E7-4E18-93D4-82250696F244}|ReserveiAPI.csproj|c:\\users\\didjtyrjeu\\desktop\\git\\reserveiapi\\services\\entities\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{42EF417D-94E7-4E18-93D4-82250696F244}|ReserveiAPI.csproj|solutionrelative:services\\entities\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{42EF417D-94E7-4E18-93D4-82250696F244}|ReserveiAPI.csproj|c:\\users\\didjtyrjeu\\desktop\\git\\reserveiapi\\objects\\contracts\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{42EF417D-94E7-4E18-93D4-82250696F244}|ReserveiAPI.csproj|solutionrelative:objects\\contracts\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{42EF417D-94E7-4E18-93D4-82250696F244}|ReserveiAPI.csproj|c:\\users\\didjtyrjeu\\desktop\\git\\reserveiapi\\contexts\\builders\\userbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42EF417D-94E7-4E18-93D4-82250696F244}|ReserveiAPI.csproj|solutionrelative:contexts\\builders\\userbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{42EF417D-94E7-4E18-93D4-82250696F244}|ReserveiAPI.csproj|c:\\users\\didjtyrjeu\\desktop\\git\\reserveiapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{42EF417D-94E7-4E18-93D4-82250696F244}|ReserveiAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{42EF417D-94E7-4E18-93D4-82250696F244}|ReserveiAPI.csproj|c:\\users\\didjtyrjeu\\desktop\\git\\reserveiapi\\services\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42EF417D-94E7-4E18-93D4-82250696F244}|ReserveiAPI.csproj|solutionrelative:services\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42EF417D-94E7-4E18-93D4-82250696F244}|ReserveiAPI.csproj|c:\\users\\didjtyrjeu\\desktop\\git\\reserveiapi\\objects\\models\\entities\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42EF417D-94E7-4E18-93D4-82250696F244}|ReserveiAPI.csproj|solutionrelative:objects\\models\\entities\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42EF417D-94E7-4E18-93D4-82250696F244}|ReserveiAPI.csproj|c:\\users\\didjtyrjeu\\desktop\\git\\reserveiapi\\objects\\dtos\\entities\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42EF417D-94E7-4E18-93D4-82250696F244}|ReserveiAPI.csproj|solutionrelative:objects\\dtos\\entities\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{42EF417D-94E7-4E18-93D4-82250696F244}|ReserveiAPI.csproj|c:\\users\\didjtyrjeu\\desktop\\git\\reserveiapi\\objects\\ultilities\\validatorultilitie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -71,24 +75,32 @@
       "RelativeMoniker": "D:0:0:{42EF417D-94E7-4E18-93D4-82250696F244}|ReserveiAPI.csproj|solutionrelative:objects\\ultilities\\operatorultilitie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{42EF417D-94E7-4E18-93D4-82250696F244}|ReserveiAPI.csproj|c:\\users\\didjtyrjeu\\desktop\\git\\reserveiapi\\objects\\contracts\\responseenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{42EF417D-94E7-4E18-93D4-82250696F244}|ReserveiAPI.csproj|solutionrelative:objects\\contracts\\responseenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{42EF417D-94E7-4E18-93D4-82250696F244}|ReserveiAPI.csproj|c:\\users\\didjtyrjeu\\desktop\\git\\reserveiapi\\objects\\dtos\\mappings\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42EF417D-94E7-4E18-93D4-82250696F244}|ReserveiAPI.csproj|solutionrelative:objects\\dtos\\mappings\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{42EF417D-94E7-4E18-93D4-82250696F244}|ReserveiAPI.csproj|c:\\users\\didjtyrjeu\\desktop\\git\\reserveiapi\\objects\\contracts\\response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{42EF417D-94E7-4E18-93D4-82250696F244}|ReserveiAPI.csproj|solutionrelative:objects\\contracts\\response.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{42EF417D-94E7-4E18-93D4-82250696F244}|ReserveiAPI.csproj|c:\\users\\didjtyrjeu\\desktop\\git\\reserveiapi\\objects\\contracts\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42EF417D-94E7-4E18-93D4-82250696F244}|ReserveiAPI.csproj|solutionrelative:objects\\contracts\\login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42EF417D-94E7-4E18-93D4-82250696F244}|ReserveiAPI.csproj|c:\\users\\didjtyrjeu\\desktop\\git\\reserveiapi\\repositories\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42EF417D-94E7-4E18-93D4-82250696F244}|ReserveiAPI.csproj|solutionrelative:repositories\\interfaces\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42EF417D-94E7-4E18-93D4-82250696F244}|ReserveiAPI.csproj|c:\\users\\didjtyrjeu\\desktop\\git\\reserveiapi\\contexts\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42EF417D-94E7-4E18-93D4-82250696F244}|ReserveiAPI.csproj|solutionrelative:contexts\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{42EF417D-94E7-4E18-93D4-82250696F244}|ReserveiAPI.csproj|c:\\users\\didjtyrjeu\\desktop\\git\\reserveiapi\\objects\\contracts\\responseenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{42EF417D-94E7-4E18-93D4-82250696F244}|ReserveiAPI.csproj|solutionrelative:objects\\contracts\\responseenum.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{42EF417D-94E7-4E18-93D4-82250696F244}|ReserveiAPI.csproj|c:\\users\\didjtyrjeu\\desktop\\git\\reserveiapi\\reserveiapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{42EF417D-94E7-4E18-93D4-82250696F244}|ReserveiAPI.csproj|solutionrelative:reserveiapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{42EF417D-94E7-4E18-93D4-82250696F244}|ReserveiAPI.csproj|c:\\users\\didjtyrjeu\\desktop\\git\\reserveiapi\\contexts\\builders\\userbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{42EF417D-94E7-4E18-93D4-82250696F244}|ReserveiAPI.csproj|solutionrelative:contexts\\builders\\userbuilder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{42EF417D-94E7-4E18-93D4-82250696F244}|ReserveiAPI.csproj|c:\\users\\didjtyrjeu\\desktop\\git\\reserveiapi\\objects\\models\\entities\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{42EF417D-94E7-4E18-93D4-82250696F244}|ReserveiAPI.csproj|solutionrelative:objects\\models\\entities\\usermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -98,76 +110,154 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 10,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\Didjtyrjeu\\Desktop\\git\\ReserveiAPI\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
-              "ToolTip": "C:\\Users\\Didjtyrjeu\\Desktop\\git\\ReserveiAPI\\Controllers\\UserController.cs",
-              "RelativeToolTip": "Controllers\\UserController.cs",
-              "ViewState": "AQIAAJkAAAAAAAAAAAAiwFEBAAAAAAAA",
+              "DocumentIndex": 7,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "C:\\Users\\Didjtyrjeu\\Desktop\\git\\ReserveiAPI\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "WeatherForecast.cs",
+              "ToolTip": "C:\\Users\\Didjtyrjeu\\Desktop\\git\\ReserveiAPI\\WeatherForecast.cs",
+              "RelativeToolTip": "WeatherForecast.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-31T05:52:27.08Z",
+              "WhenOpened": "2024-09-18T02:50:29.102Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Didjtyrjeu\\Desktop\\git\\ReserveiAPI\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
               "ToolTip": "C:\\Users\\Didjtyrjeu\\Desktop\\git\\ReserveiAPI\\appsettings.json",
               "RelativeToolTip": "appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAEAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2024-08-24T12:47:38.236Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AppDBContext.cs",
-              "DocumentMoniker": "C:\\Users\\Didjtyrjeu\\Desktop\\git\\ReserveiAPI\\Contexts\\AppDBContext.cs",
-              "RelativeDocumentMoniker": "Contexts\\AppDBContext.cs",
-              "ToolTip": "C:\\Users\\Didjtyrjeu\\Desktop\\git\\ReserveiAPI\\Contexts\\AppDBContext.cs",
-              "RelativeToolTip": "Contexts\\AppDBContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-24T12:38:55.01Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Startup.cs",
               "DocumentMoniker": "C:\\Users\\Didjtyrjeu\\Desktop\\git\\ReserveiAPI\\Startup.cs",
               "RelativeDocumentMoniker": "Startup.cs",
               "ToolTip": "C:\\Users\\Didjtyrjeu\\Desktop\\git\\ReserveiAPI\\Startup.cs",
               "RelativeToolTip": "Startup.cs",
-              "ViewState": "AQIAAD4AAAAAAAAAAADwv1cAAAAAAAAA",
+              "ViewState": "AQIAABcAAAAAAAAAAAAkwC4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-31T08:19:18.658Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 17,
+              "Title": "OperatorUltilitie.cs",
+              "DocumentMoniker": "C:\\Users\\Didjtyrjeu\\Desktop\\git\\ReserveiAPI\\Objects\\Ultilities\\OperatorUltilitie.cs",
+              "RelativeDocumentMoniker": "Objects\\Ultilities\\OperatorUltilitie.cs",
+              "ToolTip": "C:\\Users\\Didjtyrjeu\\Desktop\\git\\ReserveiAPI\\Objects\\Ultilities\\OperatorUltilitie.cs",
+              "RelativeToolTip": "Objects\\Ultilities\\OperatorUltilitie.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAkwEYAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-31T05:23:56.981Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Response.cs",
+              "DocumentMoniker": "C:\\Users\\Didjtyrjeu\\Desktop\\git\\ReserveiAPI\\Objects\\Contracts\\Response.cs",
+              "RelativeDocumentMoniker": "Objects\\Contracts\\Response.cs",
+              "ToolTip": "C:\\Users\\Didjtyrjeu\\Desktop\\git\\ReserveiAPI\\Objects\\Contracts\\Response.cs",
+              "RelativeToolTip": "Objects\\Contracts\\Response.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-31T05:47:12.649Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "UserRepository.cs",
               "DocumentMoniker": "C:\\Users\\Didjtyrjeu\\Desktop\\git\\ReserveiAPI\\Repositories\\Entities\\UserRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\Entities\\UserRepository.cs",
               "ToolTip": "C:\\Users\\Didjtyrjeu\\Desktop\\git\\ReserveiAPI\\Repositories\\Entities\\UserRepository.cs",
               "RelativeToolTip": "Repositories\\Entities\\UserRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAKAAAA",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAQwBcAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-31T04:28:43.385Z",
+              "WhenOpened": "2024-08-31T04:28:43.385Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UserBuilder.cs",
+              "DocumentMoniker": "C:\\Users\\Didjtyrjeu\\Desktop\\git\\ReserveiAPI\\Contexts\\Builders\\UserBuilder.cs",
+              "RelativeDocumentMoniker": "Contexts\\Builders\\UserBuilder.cs",
+              "ToolTip": "C:\\Users\\Didjtyrjeu\\Desktop\\git\\ReserveiAPI\\Contexts\\Builders\\UserBuilder.cs",
+              "RelativeToolTip": "Contexts\\Builders\\UserBuilder.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-24T12:27:29.356Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Didjtyrjeu\\Desktop\\git\\ReserveiAPI\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\Didjtyrjeu\\Desktop\\git\\ReserveiAPI\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-24T12:47:37.49Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
+              "Title": "20240914123227_database.cs",
+              "DocumentMoniker": "C:\\Users\\Didjtyrjeu\\Desktop\\git\\ReserveiAPI\\Migrations\\20240914123227_database.cs",
+              "RelativeDocumentMoniker": "Migrations\\20240914123227_database.cs",
+              "ToolTip": "C:\\Users\\Didjtyrjeu\\Desktop\\git\\ReserveiAPI\\Migrations\\20240914123227_database.cs",
+              "RelativeToolTip": "Migrations\\20240914123227_database.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T12:32:27.709Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\Didjtyrjeu\\Desktop\\git\\ReserveiAPI\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\Didjtyrjeu\\Desktop\\git\\ReserveiAPI\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Controllers\\UserController.cs",
+              "ViewState": "AQIAAJ4AAAAAAAAAAAAcwF0AAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-31T05:52:27.08Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AppDBContextModelSnapshot.cs",
+              "DocumentMoniker": "C:\\Users\\Didjtyrjeu\\Desktop\\git\\ReserveiAPI\\Migrations\\AppDBContextModelSnapshot.cs",
+              "RelativeDocumentMoniker": "Migrations\\AppDBContextModelSnapshot.cs",
+              "ToolTip": "C:\\Users\\Didjtyrjeu\\Desktop\\git\\ReserveiAPI\\Migrations\\AppDBContextModelSnapshot.cs",
+              "RelativeToolTip": "Migrations\\AppDBContextModelSnapshot.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-18T02:51:19.013Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "DependenciesInjection.cs",
               "DocumentMoniker": "C:\\Users\\Didjtyrjeu\\Desktop\\git\\ReserveiAPI\\Services\\Server\\DependenciesInjection.cs",
               "RelativeDocumentMoniker": "Services\\Server\\DependenciesInjection.cs",
@@ -180,63 +270,103 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 21,
               "Title": "IUserRepository.cs",
               "DocumentMoniker": "C:\\Users\\Didjtyrjeu\\Desktop\\git\\ReserveiAPI\\Repositories\\Interfaces\\IUserRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\Interfaces\\IUserRepository.cs",
               "ToolTip": "C:\\Users\\Didjtyrjeu\\Desktop\\git\\ReserveiAPI\\Repositories\\Interfaces\\IUserRepository.cs",
               "RelativeToolTip": "Repositories\\Interfaces\\IUserRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAFAAAA",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAxwA0AAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-31T04:25:33Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+              "WhenOpened": "2024-08-31T04:25:33Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 13,
               "Title": "IUserService.cs",
               "DocumentMoniker": "C:\\Users\\Didjtyrjeu\\Desktop\\git\\ReserveiAPI\\Services\\Interfaces\\IUserService.cs",
               "RelativeDocumentMoniker": "Services\\Interfaces\\IUserService.cs",
               "ToolTip": "C:\\Users\\Didjtyrjeu\\Desktop\\git\\ReserveiAPI\\Services\\Interfaces\\IUserService.cs",
               "RelativeToolTip": "Services\\Interfaces\\IUserService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAoAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-31T04:38:20.336Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-31T04:38:20.336Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\Didjtyrjeu\\Desktop\\git\\ReserveiAPI\\Services\\Entities\\UserService.cs",
+              "RelativeDocumentMoniker": "Services\\Entities\\UserService.cs",
+              "ToolTip": "C:\\Users\\Didjtyrjeu\\Desktop\\git\\ReserveiAPI\\Services\\Entities\\UserService.cs",
+              "RelativeToolTip": "Services\\Entities\\UserService.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAwwCMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-31T04:40:42.951Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "Token.cs",
               "DocumentMoniker": "C:\\Users\\Didjtyrjeu\\Desktop\\git\\ReserveiAPI\\Objects\\Contracts\\Token.cs",
               "RelativeDocumentMoniker": "Objects\\Contracts\\Token.cs",
               "ToolTip": "C:\\Users\\Didjtyrjeu\\Desktop\\git\\ReserveiAPI\\Objects\\Contracts\\Token.cs",
               "RelativeToolTip": "Objects\\Contracts\\Token.cs",
-              "ViewState": "AQIAACAAAAAAAAAAAAAwwCQAAAANAAAA",
+              "ViewState": "AQIAAB0AAAAAAAAAAAAwwCQAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-31T10:22:41.481Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-31T10:22:41.481Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 8,
               "Title": "TokenSignatures.cs",
               "DocumentMoniker": "C:\\Users\\Didjtyrjeu\\Desktop\\git\\ReserveiAPI\\Objects\\Contracts\\TokenSignatures.cs",
               "RelativeDocumentMoniker": "Objects\\Contracts\\TokenSignatures.cs",
               "ToolTip": "C:\\Users\\Didjtyrjeu\\Desktop\\git\\ReserveiAPI\\Objects\\Contracts\\TokenSignatures.cs",
               "RelativeToolTip": "Objects\\Contracts\\TokenSignatures.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAABBAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-31T10:18:58.105Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-31T10:18:58.105Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
+              "Title": "UserModel.cs",
+              "DocumentMoniker": "C:\\Users\\Didjtyrjeu\\Desktop\\git\\ReserveiAPI\\Objects\\Models\\Entities\\UserModel.cs",
+              "RelativeDocumentMoniker": "Objects\\Models\\Entities\\UserModel.cs",
+              "ToolTip": "C:\\Users\\Didjtyrjeu\\Desktop\\git\\ReserveiAPI\\Objects\\Models\\Entities\\UserModel.cs",
+              "RelativeToolTip": "Objects\\Models\\Entities\\UserModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-24T12:04:52.559Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "UserDTO.cs",
+              "DocumentMoniker": "C:\\Users\\Didjtyrjeu\\Desktop\\git\\ReserveiAPI\\Objects\\DTOs\\Entities\\UserDTO.cs",
+              "RelativeDocumentMoniker": "Objects\\DTOs\\Entities\\UserDTO.cs",
+              "ToolTip": "C:\\Users\\Didjtyrjeu\\Desktop\\git\\ReserveiAPI\\Objects\\DTOs\\Entities\\UserDTO.cs",
+              "RelativeToolTip": "Objects\\DTOs\\Entities\\UserDTO.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-24T13:29:30.176Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ValidatorUltilitie.cs",
+              "DocumentMoniker": "C:\\Users\\Didjtyrjeu\\Desktop\\git\\ReserveiAPI\\Objects\\Ultilities\\ValidatorUltilitie.cs",
+              "RelativeDocumentMoniker": "Objects\\Ultilities\\ValidatorUltilitie.cs",
+              "ToolTip": "C:\\Users\\Didjtyrjeu\\Desktop\\git\\ReserveiAPI\\Objects\\Ultilities\\ValidatorUltilitie.cs",
+              "RelativeToolTip": "Objects\\Ultilities\\ValidatorUltilitie.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-31T05:35:01.605Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
               "Title": "Login.cs",
               "DocumentMoniker": "C:\\Users\\Didjtyrjeu\\Desktop\\git\\ReserveiAPI\\Objects\\Contracts\\Login.cs",
               "RelativeDocumentMoniker": "Objects\\Contracts\\Login.cs",
@@ -244,25 +374,11 @@
               "RelativeToolTip": "Objects\\Contracts\\Login.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-31T08:32:40.498Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-31T08:32:40.498Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "C:\\Users\\Didjtyrjeu\\Desktop\\git\\ReserveiAPI\\Services\\Entities\\UserService.cs",
-              "RelativeDocumentMoniker": "Services\\Entities\\UserService.cs",
-              "ToolTip": "C:\\Users\\Didjtyrjeu\\Desktop\\git\\ReserveiAPI\\Services\\Entities\\UserService.cs",
-              "RelativeToolTip": "Services\\Entities\\UserService.cs",
-              "ViewState": "AQIAACoAAAAAAAAAAAAWwEYAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-31T04:40:42.951Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 18,
               "Title": "MappingProfile.cs",
               "DocumentMoniker": "C:\\Users\\Didjtyrjeu\\Desktop\\git\\ReserveiAPI\\Objects\\DTOs\\Mappings\\MappingProfile.cs",
               "RelativeDocumentMoniker": "Objects\\DTOs\\Mappings\\MappingProfile.cs",
@@ -270,51 +386,23 @@
               "RelativeToolTip": "Objects\\DTOs\\Mappings\\MappingProfile.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-24T13:37:14.436Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-24T13:37:14.436Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "UserDTO.cs",
-              "DocumentMoniker": "C:\\Users\\Didjtyrjeu\\Desktop\\git\\ReserveiAPI\\Objects\\DTOs\\Entities\\UserDTO.cs",
-              "RelativeDocumentMoniker": "Objects\\DTOs\\Entities\\UserDTO.cs",
-              "ToolTip": "C:\\Users\\Didjtyrjeu\\Desktop\\git\\ReserveiAPI\\Objects\\DTOs\\Entities\\UserDTO.cs",
-              "RelativeToolTip": "Objects\\DTOs\\Entities\\UserDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAAAAAA",
+              "DocumentIndex": 22,
+              "Title": "AppDBContext.cs",
+              "DocumentMoniker": "C:\\Users\\Didjtyrjeu\\Desktop\\git\\ReserveiAPI\\Contexts\\AppDBContext.cs",
+              "RelativeDocumentMoniker": "Contexts\\AppDBContext.cs",
+              "ToolTip": "C:\\Users\\Didjtyrjeu\\Desktop\\git\\ReserveiAPI\\Contexts\\AppDBContext.cs",
+              "RelativeToolTip": "Contexts\\AppDBContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-24T13:29:30.176Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-24T12:38:55.01Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Didjtyrjeu\\Desktop\\git\\ReserveiAPI\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\Didjtyrjeu\\Desktop\\git\\ReserveiAPI\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAIBJwBsAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-24T12:47:37.49Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "Response.cs",
-              "DocumentMoniker": "C:\\Users\\Didjtyrjeu\\Desktop\\git\\ReserveiAPI\\Objects\\Contracts\\Response.cs",
-              "RelativeDocumentMoniker": "Objects\\Contracts\\Response.cs",
-              "ToolTip": "C:\\Users\\Didjtyrjeu\\Desktop\\git\\ReserveiAPI\\Objects\\Contracts\\Response.cs",
-              "RelativeToolTip": "Objects\\Contracts\\Response.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-31T05:47:12.649Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 23,
               "Title": "ResponseEnum.cs",
               "DocumentMoniker": "C:\\Users\\Didjtyrjeu\\Desktop\\git\\ReserveiAPI\\Objects\\Contracts\\ResponseEnum.cs",
               "RelativeDocumentMoniker": "Objects\\Contracts\\ResponseEnum.cs",
@@ -322,38 +410,11 @@
               "RelativeToolTip": "Objects\\Contracts\\ResponseEnum.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-31T05:45:25.956Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-31T05:45:25.956Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "ValidatorUltilitie.cs",
-              "DocumentMoniker": "C:\\Users\\Didjtyrjeu\\Desktop\\git\\ReserveiAPI\\Objects\\Ultilities\\ValidatorUltilitie.cs",
-              "RelativeDocumentMoniker": "Objects\\Ultilities\\ValidatorUltilitie.cs",
-              "ToolTip": "C:\\Users\\Didjtyrjeu\\Desktop\\git\\ReserveiAPI\\Objects\\Ultilities\\ValidatorUltilitie.cs",
-              "RelativeToolTip": "Objects\\Ultilities\\ValidatorUltilitie.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAA6AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-31T05:35:01.605Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "OperatorUltilitie.cs",
-              "DocumentMoniker": "C:\\Users\\Didjtyrjeu\\Desktop\\git\\ReserveiAPI\\Objects\\Ultilities\\OperatorUltilitie.cs",
-              "RelativeDocumentMoniker": "Objects\\Ultilities\\OperatorUltilitie.cs",
-              "ToolTip": "C:\\Users\\Didjtyrjeu\\Desktop\\git\\ReserveiAPI\\Objects\\Ultilities\\OperatorUltilitie.cs",
-              "RelativeToolTip": "Objects\\Ultilities\\OperatorUltilitie.cs",
-              "ViewState": "AQIAAA0AAAAAAAAAAAAgwC4AAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-31T05:23:56.981Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 24,
               "Title": "ReserveiAPI.csproj",
               "DocumentMoniker": "C:\\Users\\Didjtyrjeu\\Desktop\\git\\ReserveiAPI\\ReserveiAPI.csproj",
               "RelativeDocumentMoniker": "ReserveiAPI.csproj",
@@ -361,34 +422,7 @@
               "RelativeToolTip": "ReserveiAPI.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-08-24T12:26:07.18Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "UserBuilder.cs",
-              "DocumentMoniker": "C:\\Users\\Didjtyrjeu\\Desktop\\git\\ReserveiAPI\\Contexts\\Builders\\UserBuilder.cs",
-              "RelativeDocumentMoniker": "Contexts\\Builders\\UserBuilder.cs",
-              "ToolTip": "C:\\Users\\Didjtyrjeu\\Desktop\\git\\ReserveiAPI\\Contexts\\Builders\\UserBuilder.cs",
-              "RelativeToolTip": "Contexts\\Builders\\UserBuilder.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAOAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-24T12:27:29.356Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "UserModel.cs",
-              "DocumentMoniker": "C:\\Users\\Didjtyrjeu\\Desktop\\git\\ReserveiAPI\\Objects\\Models\\Entities\\UserModel.cs",
-              "RelativeDocumentMoniker": "Objects\\Models\\Entities\\UserModel.cs",
-              "ToolTip": "C:\\Users\\Didjtyrjeu\\Desktop\\git\\ReserveiAPI\\Objects\\Models\\Entities\\UserModel.cs",
-              "RelativeToolTip": "Objects\\Models\\Entities\\UserModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-24T12:04:52.559Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-24T12:26:07.18Z"
             }
           ]
         }

@@ -7,7 +7,6 @@ namespace ReserveiAPI.Services.Interfaces
     {
         Task<IEnumerable<UserDTO>> GetAll();
         Task<UserDTO> GetById(int id);
-        Task<UserDTO> GetByEmail(string email);
         Task<UserDTO> Login(Login login);
         Task Create(UserDTO userDTO);
         Task Update(UserDTO userDTO);

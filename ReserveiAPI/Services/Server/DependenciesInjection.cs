@@ -1,6 +1,6 @@
-﻿using ReserveiAPI.Repositories.Entities;
+﻿using backend.Repositories.Entities;
+using backend.Services.Entities;
 using ReserveiAPI.Repositories.Interfaces;
-using ReserveiAPI.Services.Entities;
 using ReserveiAPI.Services.Interfaces;
 
 namespace ReserveiAPI.Services.Server 

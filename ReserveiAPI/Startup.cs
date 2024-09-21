@@ -1,10 +1,11 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using Microsoft.OpenApi.Models;
+using System.Text.Json.Serialization;
+using Swashbuckle.AspNetCore.SwaggerUI;
 using ReserveiAPI.Contexts;
 using ReserveiAPI.Services.Server;
-using Swashbuckle.AspNetCore.SwaggerUI;
-using System.Text.Json.Serialization;
 
-namespace ReserveiAPI
+namespace backend
 {
     public class Startup
     {
@@ -17,14 +18,14 @@ namespace ReserveiAPI
 
         public void ConfigureServices(IServiceCollection services)
         {
-            // Configure the database
+            // Configuração do banco de dados
             services.AddDbContext<AppDBContext>(options =>
                 options.UseNpgsql(Configuration.GetConnectionString("DefaultConnection")));
 
-            // Configure Swagger
+            // Configuração do Swagger
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new Microsoft.OpenApi.Models.OpenApiInfo { Title = "CourseGuide", Version = "v1" });
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "backend", Version = "v1" });
             });
 
             services.AddControllers().AddJsonOptions(
@@ -32,10 +33,9 @@ namespace ReserveiAPI
 
             services.AddEndpointsApiExplorer();
 
-            // Configure CORS
             services.AddCors(o => o.AddPolicy("MyPolicy", builder =>
             {
-                builder.WithOrigins("http://localhost:3000", "http://localhost:5173") // Fixed typo in URL
+                builder.WithOrigins("http://localhost:3000", "http://localhost:5173")
                     .AllowAnyMethod()
                     .AllowAnyHeader()
                     .AllowCredentials();
@@ -43,7 +43,8 @@ namespace ReserveiAPI
 
             services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
-            // Dependency injection
+            // Injeção de dependências
+
             services.AddUserDependencies();
         }
 
@@ -62,7 +63,7 @@ namespace ReserveiAPI
                     c.EnableFilter();
                     c.ShowExtensions();
                     c.EnableValidator();
-                    c.SupportedSubmitMethods(SubmitMethod.Get, SubmitMethod.Post, SubmitMethod.Put, SubmitMethod.Delete, SubmitMethod.Patch);
+                    c.SupportedSubmitMethods(SubmitMethod.Get, SubmitMethod.Post, SubmitMethod.Put, SubmitMethod.Delete);
                 });
             }
             else

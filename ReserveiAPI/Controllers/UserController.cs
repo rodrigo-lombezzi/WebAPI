@@ -150,7 +150,7 @@ namespace ReserveiAPI.Controllers
 
             try
             {
-                login.Password = login.Password.HashPassword();
+                login.Password = OperatorUltilitie.HashPassword(login.Password);
                 var userDTO = await _userService.Login(login);
 
                 if (userDTO == null)
@@ -191,16 +191,7 @@ namespace ReserveiAPI.Controllers
 
             try
             {
-                var email = token.ExtractSubject();
-
-                if (string.IsNullOrEmpty(email) || await _userService.GetByEmail(email) == null)
-                {
-                    _response.SetUnauthorized();
-                    _response.Message = "Token inválido!";
-                    _response.Data = new { errorToken = "Token inválido!" };
-                    return BadRequest(_response);
-                }
-                else if (!token.ValidateToken())
+                if (!token.ValidateToken())
                 {
                     _response.SetUnauthorized();
                     _response.Message = "Token inválido!";
